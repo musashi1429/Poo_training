@@ -10,10 +10,23 @@ class City :
 #Method for change our location .
     def changelocation(self,ville,departement):
         self.ville = ville
-        self.departement = departement
+        self.departement =
+
 
 
 villeactuelle = City("Paris",75)
+villeactuelle.showlocation()
+
+villeactuelle = City("Roubaix",59)
+villeactuelle.showlocation()
+
+villeactuelle = City("lyon",69)
+villeactuelle.showlocation()
+
+villeactuelle = City("Marseille",13)
+villeactuelle.showlocation()
+
+villeactuelle = City("rouen",86)
 villeactuelle.showlocation()
 
 villeactuelle.changelocation("Marseille",13)
