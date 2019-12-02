@@ -10,7 +10,7 @@ class City :
 #Method for change our location .
     def changelocation(self,ville,departement):
         self.ville = ville
-        self.departement =
+        self.departement = departement
 
 
 
