@@ -1,3 +1,4 @@
+from cities import *
 class Ville:
     def __init__(self,data_dic):
         self.name = None
@@ -25,11 +26,8 @@ class Ville:
 
 
 
-cities = {"name": "Paris", "department": 92, "country": "France", "population": 2190327, "mayor": "Anne Hidalgo", "capital": True},
-
 
 
 for city in cities:
     city = Ville(city)
-    print(Ville(city))
-city.show_information()
+    city.show_information()

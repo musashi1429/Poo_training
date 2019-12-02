@@ -1,0 +1,6 @@
+# coding: utf8
+
+class Book():
+    """"""
+    def __init__(self):
+        pass
